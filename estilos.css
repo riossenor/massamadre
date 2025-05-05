@@ -83,19 +83,26 @@ footer{
 footer .conteiner{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
-.flooter-row{
+footer .conteiner .footer-row{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
-.flooter-links{
+footer .conteiner .footer-row .flooter-links{
     width: 25%;
     padding: 0 15px;
 }
+footer .conteiner .footer-row .flooter-links a{
+    font-size: 700;
+    text-decoration: none;
+    color: black;   
+}
 
-.flooter-links h4{
+footer .conteiner .footer-row .flooter-links h4{
     font-size: 20px;
     color: white;
     margin-bottom: 25px;
@@ -105,7 +112,16 @@ footer .conteiner{
     padding-bottom: 10px;
 }
 
-img{
-    height: 70px;
-    width: auto;
+footer .conteiner .footer-row .logo img{
+    height: 120px;
+    width: 120px;
+}
+
+footer .conteiner .footer-row .flooter-links .social-links img{
+    height: 50px;
+    width: 50px;
+}
+
+footer .conteiner .footer-row .flooter-links .social-links li{
+    display: inline;
 }
